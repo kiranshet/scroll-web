@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'manjukolkar007/test-dev:latest'
+        DOCKER_IMAGE = 'kiran588/test-dev:latest'
         DEPLOY_FILE  = 'deploy.yaml'
         DOMAIN       = 'micro-project.freedynamicdns.net'
     }
