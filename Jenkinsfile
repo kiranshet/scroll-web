@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'kiran588/test-dev:latest'
         DEPLOY_FILE  = 'deploy.yaml'
-        DOMAIN       = 'micro-project.freedynamicdns.net'
+        DOMAIN       = 'kiranonline.store'
     }
 
     stages {
