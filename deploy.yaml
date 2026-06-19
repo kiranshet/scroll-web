@@ -39,7 +39,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: micro-project.freedynamicdns.net
+  - host: kiranonline.store
     http:
       paths:
       - path: /
